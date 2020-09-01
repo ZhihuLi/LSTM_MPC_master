@@ -4,7 +4,7 @@ mppi = MPPI(256, 200, 0.5)
 """
 目标形状设立1500个时间步
 """
-STEP_LIMIT = 200
+# STEP_LIMIT = 300
 
 def get_real_shape():
     h_real, w_real = mppi.get_real_shape()
